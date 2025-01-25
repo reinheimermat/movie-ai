@@ -1,0 +1,14 @@
+### @name create-suggest-movie
+POST http://localhost:3001/api/create-suggest-movie
+Content-Type: application/json
+Authorization: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlMWYzZDJlMzY0NDljZGRmMDJmMzJlOWQ4NWI3ODVkNSIsIm5iZiI6MTczNzgxNjQ5My43NzEwMDAxLCJzdWIiOiI2Nzk0ZjlhZDc2MGY1MWUxN2QyYWRmNmMiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.p7hOzLQxCgbMs_gnZBiGCVbPPVmydvutD3StTxIlVas"
+
+{
+    "prompt": "Ação e aventura"
+}
+
+###
+
+GET https://api.themoviedb.org/3/search/movie?query=O+Iluminado?query=O+Exorcista&&api_key=e1f3d2e36449cddf02f32e9d85b785d5
+Content-Type: application/json
+Authorization: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlMWYzZDJlMzY0NDljZGRmMDJmMzJlOWQ4NWI3ODVkNSIsIm5iZiI6MTczNzgxNjQ5My43NzEwMDAxLCJzdWIiOiI2Nzk0ZjlhZDc2MGY1MWUxN2QyYWRmNmMiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.p7hOzLQxCgbMs_gnZBiGCVbPPVmydvutD3StTxIlVas"
