@@ -3,7 +3,6 @@ import { z } from 'zod'
 const envSchema = z.object({
   GEMINI_API_KEY: z.string(),
   TMDB_API_KEY: z.string(),
-  TMDB_AUTH: z.string(),
 })
 
 const _env = envSchema.safeParse(process.env)
